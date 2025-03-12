@@ -1,0 +1,13 @@
+{
+  "cli": {
+    "version": ">= 0.49.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "production": {}
+  }
+}

@@ -1,0 +1,132 @@
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#000',
+  },
+  card: {
+    width: 300,
+    height: 270,
+    backgroundColor: '#000',
+    borderRadius: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 5,
+    overflow: 'hidden',
+    margin: 8
+  },
+  cardImage: {
+    width: '100%', // Asegura que la imagen ocupe todo el ancho del contenedor
+    height: '100%', // Asegura que la imagen ocupe todo el alto del contenedor
+    position: 'absolute',
+    resizeMode: 'contain', // Asegura que la imagen cubra todo el contenedor sin distorsionarse
+  },
+  
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    borderRadius: 10,
+  },
+  content: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 16,
+  },
+  messageImage: {
+    width: 400,
+    height: 30,
+    resizeMode: 'contain',
+  },
+  messageText: {
+    color: '#fff',
+    fontSize: 16,
+    textAlign: 'center',
+    marginTop: 4,
+  },
+  button: {
+    backgroundColor: '#e8b639',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 5,
+    marginTop: 24,
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  customMessage: {
+    color: '#fff',
+    fontSize: 16,
+    fontStyle: 'italic',
+    marginTop: 16,
+  },
+  modalContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+  modalContent: {
+    backgroundColor: '#fff',
+    padding: 20,
+    borderRadius: 10,
+    alignItems: 'center',
+  },
+  modalImage: {
+    width: 200,
+    height: 200,
+    borderRadius: 10,
+  },
+  modalButton: {
+    backgroundColor: '#B8433A',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 20,
+    marginTop: 16,
+  },
+  modalButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  fullScreenModalContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.75)',
+  },
+  fullScreenModalContent: {
+    width: '100%',
+    height: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  fullScreenModalImage: {
+    width: 300,
+    height: 450,
+  },
+  closeButton: {
+    position: 'absolute',
+    top: 16,
+    right: 16,
+    backgroundColor: '#B8433A',
+    padding: 10,
+    borderRadius: 20,
+    borderWidth: 2,
+    borderColor: '#7b081b',
+  },
+  closeButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  finalImage: {
+    width: 300,
+    height: 450,
+  },
+});
